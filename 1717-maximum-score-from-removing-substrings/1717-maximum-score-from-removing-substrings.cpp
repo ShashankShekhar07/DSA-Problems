@@ -29,10 +29,10 @@ public:
             st.pop();
         }
         reverse(res.begin(),res.end());
-        for(auto c: res){
-            cout<<c<<" ";
-        }
-        cout<<endl;
+        // for(auto c: res){
+        //     cout<<c<<" ";
+        // }
+        // cout<<endl;
         stack<char> st2;
         for(auto c: res){
             //s1=ba ab
